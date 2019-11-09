@@ -1,0 +1,83 @@
+		<style>
+			header{
+				padding: 0px 0px 0px 0px;
+			}
+			h2{
+				color: darkorange;
+				float: left;
+				margin: 0px 40px 0px 40px;
+				font-size: 250%;
+				line-height: 78px;
+			}
+			#tm{
+				float:left;
+				width: 40px;
+				height: 40px;
+				margin:20px 0px 0px 40px ;
+				transform:rotate(45deg);
+			}
+			.head{
+				text-decoration: none;
+				color: black;
+				line-height:78px;
+				font-size: 1.4rem;
+			}
+			.head:hover{
+				color: darkorange;
+			}
+			.search{
+				margin: 0 0 0 40px;
+				border-radius: 10px;
+				padding-left: 8px;
+				border:1px solid gainsboro;
+				height:30px;
+				width: 400px;
+				text-align: left;
+			}
+			.btn{
+				height: 38px;
+				border-radius: 38px;
+				border:1px solid gainsboro;
+			}
+			.btn:hover{
+				background-color: gainsboro;
+			}
+			nav{
+				float:left;
+				height:800px;
+				width: 25%;
+			}
+			select{
+				margin-left: 40px;
+				border-radius:10px;
+				border: 1px solid gainsboro;
+			}
+			section{
+				float:left;
+				height:800px;
+				width: 50%;
+			}
+			#section_head{
+				font-size: 200%;
+				padding-left: 10px;
+				font-weight: bold;
+			}
+			aside{
+				float:left;
+				height:800px;
+				width: 25%;
+			}
+			footer{
+				height: 100px;
+				background: #DCDCDC;
+				text-align: center;
+				clear: both;
+			}
+			#footer_a{
+				text-decoration: none;
+				color: black;
+			}
+			#footer_a:hover{
+				color: darkorange;
+			}
+		</style>
