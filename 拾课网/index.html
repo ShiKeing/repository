@@ -6,11 +6,12 @@
 		<link rel="stylesheet" type ="text/css" href="css/样式表.css">
 	</head>
 	<body>
+		<div class="container">
 		<header>
 			<img src="img/商标.png" id="tm">
 			<h2>拾课网</h2>
 			<span style="height: 78px">
-				<a href = "index.html" class="head">
+				<a href = "index.html" class="head" style="color: #FF8C00;">
 					首页
 				</a>
 				<a href = "课程查看.html" class="head">
@@ -24,7 +25,7 @@
 				<button class="btn" type="submit">
 						<img src="img/放大镜.png" height="20px" width="20px">
 				</button>
-			<span style="float:right;padding-right: 40px;">
+			<span style="float:right;padding-right: 40px;overflow: auto;">
 				<img src="img/登陆.png" height="30px" width="30px" align="justify">
 				<a href="登陆.html" class="head">
 					登陆
@@ -35,29 +36,70 @@
 				</a>
 			</span>
 		</header>
-		<hr color=darkorange>
+		
+		<div style="background-color:orange; width: 100%;height: 2px;"></div>
+
 		<nav>
-			<p id="section_head" style="color: cadetblue;padding-left: 40px;">快速通道</p>
-			<select>
-			  <option value ="计算机系统基础">计算机系统基础</option>
-			  <option value ="计算机操作系统">计算机操作系统</option>
+			<p id="section_head" style="color: orangered;padding-left: 40px;">快速通道</p>
+			<hr>
+			<select id="select_left">
+			  <option value ="计算机系统基础" >计算机系统基础</option>
+			  <option value ="计算机操作系统" >计算机操作系统</option>
 			  <option value="计算机网络">计算机网络</option>
 			  <option value="计算机组成原理">计算机组成原理</option>
 			</select>
 		</nav>
 		<section>
-			<p id="section_head" style="color: coral;">热门攻略</p>
+			<p id="section_head" style="color: orangered;">热门攻略</p>
+			<hr width=90%>
+			<span>
+				<a href="选课攻略内容地址1" class="head">
+					<h3>
+						那些年我们爱过的通识课
+					</h3>
+				</a>
+				<div style="background-color:orange; width: 100%;height: 6px;float: left;margin-bottom: 10px;"></div>
+				<strong>惊！我捡到宝了</strong>
+				<p>
+					......
+				</p>
+			</span>
 		</section>
 		<aside>
-			<p id="section_head" style="color: burlywood;">公告栏</p>
+			<p id="section_head" style="color: orangered;">公告栏</p>
+			<hr>
+			<span>
+				<img src="img/登陆.png" height="50px">
+				<a href="公告内容1地址" class="head">
+					大老师选雪乃了
+				</a>
+				<p>
+					团子党暴怒，团子股跌停
+				</p>
+				<hr width=90%>
+			</span>
+			<span>
+				<img src="img/登陆.png" height="50px">
+				<a href="公告内容2地址" class="head">
+					今年的通识课值得你拥有
+				</a>
+				<p>
+					......
+				</p>
+				<hr width=90%>
+			</span>
+			<!--此处添加公告栏信息
+				图片在src修改-->
+			
 		</aside>
-		<hr color=darkorange>
+		<div style="background-color:orange; width: 100%;height: 2px;float: left;margin-bottom: 10px;"></div>
 		<footer>
 			<p id="footer_p">拾课网与海大学子同在      |</p>
-				<a href="成员名单.html" id="footer_a" style="display: inline;">
+				<a href="成员名单.html" id="footer_a">
 					<p>联系我们</p>
 				</a>
 			<p>tel:15964270737         e-mail:qplazm119@qq.com</p>
 		</footer>
+		</div>
 	</body>
 </html>
