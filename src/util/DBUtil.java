@@ -21,7 +21,7 @@ public class DBUtil {
 			//读取配置文件，加载JDBC四大参数
 			drivatename = "com.mysql.jdbc.Driver";
 			//修改仓库名
-			url ="jdbc:mysql://localhost:3306/apsfc";
+			url ="jdbc:mysql://localhost:3306/shike";
 			username ="root";
 			password ="root";
 			
