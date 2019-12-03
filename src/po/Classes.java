@@ -1,6 +1,6 @@
 package po;
 
-//表示菜品类别的实体类
+//表示课程类别的实体类
 public class Types {
 	private int id;
    private String name;
