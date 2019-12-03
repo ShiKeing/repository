@@ -2,7 +2,7 @@ package po;
 /*表示订单搜索条件的实体类*/
 public class OrdersSearch {
 	private String userid;
-	private String menuname;
+	private String name;
 	private String date;
 	public String getUserid() {
 		return userid;
@@ -10,11 +10,11 @@ public class OrdersSearch {
 	public void setUserid(String userid) {
 		this.userid = userid;
 	}
-	public String getMenuname() {
-		return menuname;
+	public String getName() {
+		return name;
 	}
-	public void setMenuname(String menuname) {
-		this.menuname = menuname;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getDate() {
 		return date;
@@ -24,6 +24,6 @@ public class OrdersSearch {
 	}
 	@Override
 	public String toString() {
-		return "OrdersSearch [userid=" + userid + ", menuname=" + menuname + ", date=" + date + "]";
+		return "OrdersSearch [userid=" + userid + ", name=" + name + ", date=" + date + "]";
 	}
 }
