@@ -4,7 +4,6 @@ public class User {
    private int id;
    private String name;
    private String pwd;
-   private String realname;
 public int getId() {
 	return id;
 }
@@ -23,15 +22,9 @@ public String getPwd() {
 public void setPwd(String pwd) {
 	this.pwd = pwd;
 }
-public String getRealname() {
-	return realname;
-}
-public void setRealname(String realname) {
-	this.realname = realname;
-}
 @Override
 public String toString() {
-	return "User [id=" + id + ", name=" + name + ", pwd=" + pwd + ", realname=" + realname + "]";
+	return "User [id=" + id + ", name=" + name + ", pwd=" + pwd + "]";
 }
    
 }
