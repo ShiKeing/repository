@@ -3,8 +3,7 @@ package po;
 public class Orders {
 	private int id;
 	private String userid;
-	private String menuid;
-	private String menusum;
+	private String classid;
 	private String times;
 	private String delivery;
 	public int getId() {
@@ -19,17 +18,11 @@ public class Orders {
 	public void setUserid(String userid) {
 		this.userid = userid;
 	}
-	public String getMenuid() {
-		return menuid;
+	public String getClassidid() {
+		return classidid;
 	}
-	public void setMenuid(String menuid) {
-		this.menuid = menuid;
-	}
-	public String getMenusum() {
-		return menusum;
-	}
-	public void setMenusum(String menusum) {
-		this.menusum = menusum;
+	public void setClassidid(String classidid) {
+		this.classidid = classidid;
 	}
 	public String getTimes() {
 		return times;
@@ -45,7 +38,7 @@ public class Orders {
 	}
 	@Override
 	public String toString() {
-		return "Orders [id=" + id + ", userid=" + userid + ", menuid=" + menuid + ", menusum=" + menusum + ", times="
+		return "Orders [id=" + id + ", userid=" + userid + ", classidid=" + classidid + ", times="
 				+ times + ", delivery=" + delivery + "]";
 	}
 }
